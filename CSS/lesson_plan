@@ -1,0 +1,24 @@
+CSS - Weeks 5
+
+1. What is CSS?
+
+2. CSS syntax
+selector{
+    property: value;
+}
+3. Inline/internal/external CSS
+4. Selectors - element selector, class selector, id selector
+5. Colors(color,background-color)
+6. Fonts(font-size, font-family: Arial, sans-serif,font-weight)
+7. Text(text-align, text-decoration)
+8. Basic width/height(height,width)
+9. border property
+10. comment
+
+Weeks 6 - Box Model
+- width
+- height
+- margin
+- padding
+- border
+- box-sizing(border-box, content-box)
