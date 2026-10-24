@@ -31,3 +31,12 @@ student-task
 - Set the border radius to 20px.
 - Add 20px of space below the paragraph.
 - Change the button padding and border radius.
+
+
+Weeks 7 - Layout
+- Understand block and inline elements.
+- Use display: block, inline, inline-block, and none. (give example)
+- Build a simple navigation menu and a row of cards.
+- Understand the difference between visibility: hidden and display: none.
+- Use basic CSS positioning.(position:static, absolute, relative, fixed)
+- flexbox
