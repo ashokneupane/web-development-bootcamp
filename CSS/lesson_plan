@@ -22,3 +22,22 @@ Weeks 6 - Box Model
 - padding
 - border
 - box-sizing(border-box, content-box)
+
+Weeks 7 - Layout
+- Understand block and inline elements.
+- Use display: block, inline, inline-block, and none. (give example)
+- Build a simple navigation menu and a row of cards.
+- Understand the difference between visibility: hidden and display: none.
+- Use basic CSS positioning.(position:static, absolute, relative, fixed)
+
+
+Weeks 8 - Flexbox
+- display:flex 
+- flex-direction: row | column | row-reverse | column-reverse 
+- justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly
+- align-items: stretch | flex-start | flex-end | center | baseline
+- align-items = vertical alignment
+- justify-content = horizontal direction
+- gap: 5px, row-gap:5px, column-gap:10px
+- flex-wrap:nowrap | wrap
+- positioning(position:static, absolute, relative, fixed)
