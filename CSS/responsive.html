@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+        <title>this is a layout page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .container{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            .box{
+                background-color: green;
+                margin:10px;
+                padding:20px;
+            }
+            /* tablet media queries */
+             @media(max-width:900px)
+            {
+                 .container{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+            }
+            /* mobile media queries */
+            @media(max-width:600px)
+            {
+                .container
+                {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                }
+            }
+            /* desktop: above 900px;
+            tablet:601px-900px;
+            mobile:below 600px; */
+        </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box">item 1</div>
+        <div class="box">item 2</div>
+        <div class="box">item 3</div>
+    </div>
+</body>
+</html>

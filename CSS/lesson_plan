@@ -41,3 +41,24 @@ Weeks 8 - Flexbox
 - gap: 5px, row-gap:5px, column-gap:10px
 - flex-wrap:nowrap | wrap
 - positioning(position:static, absolute, relative, fixed)
+
+week 9 - grid, responsive web design and media query
+- grid(display:grid)
+- grid template columns
+- grid template rows
+- gap (column-gap, row-gap)
+- repeat(3,1fr)
+- <meta name="viewport" content="width=device-width, initial-scale=1.0">(explain viewpoint concept)
+- responsive design(media queries)
+- syntax:
+ @media(condition){
+// css rules goes here
+}
+e.g. @media(max-width: 600px){
+    body{
+        background-color:pink;
+    }
+}
+- mobile(600px or less)
+- tablet(601px-900px)
+- desktop(above 900px)
